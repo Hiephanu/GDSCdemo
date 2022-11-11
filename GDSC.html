@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="/GDSC.css">
+    <link rel="stylesheet" href="/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/shipping.css">
+    <link rel="stylesheet" href="/ping-1.css">
+    <link rel="stylesheet" href="/alert.css">
+    <link rel="stylesheet" href="/cart.css">
+    <link rel="stylesheet" href="/finish.css">
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li><img src="" alt=""><a href=""><b>Dino Ghost</b></a></li>
+            <li><a href="">Ghost</a></li>
+            <li><a href="">Pumpkin</a></li>
+            <li><a href="">Bat</a></li>
+            <li><a href="">Customize</a></li>
+            <li class="icon"><span class="icon-circle"><i class="ti-bag"></i></span></li>
+        </ul>
+    </div>
+
+    <div id="sidebar">
+        <i class="ti-menu"></i>
+        <i class="ti-linkedin"></i>
+
+        <i class="ti-facebook"></i>
+        <i class="ti-instagram"></i>
+    </div>
+
+    <div id="content">
+        <div class="content-1">
+            <div class="col col-half item-info">
+                <h1>#Dino Ghost</h1>
+                <div class="name"></div>
+                <div class="code"></div>
+                <div class="type"></div>
+                <span class="money">
+                    <div class="dollar">$</div>
+                    <div class="price"></div>
+                </span>
+                <img src="" alt="" class="image">
+                <button class="buy-btt">Buy Now</button>
+                <!-- <button class="buy-btt">Buy More</button> -->
+            </div>
+            <div class="col col-half item-img">
+                <span class="image-right">
+                    <h1>1</h1>
+                </span>
+
+                <div class="nav-btt">
+                    <div class="product-wrapper">
+                        <div class="product item-1 long"></div>
+                        <div class="product item-2"></div>
+                        <div class="product item-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="noti active" >
+            <p><i class="ti-check" ></i></p>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="cart-container">
+            <div class="cart-header">
+                <p>Shopping Cart (1 Item)</p>
+            </div>
+            <div class="item">
+                <img style="flex-grow: 1;" src="https://iili.io/bA8mKl.png" alt="" style="width:20%">
+                <div style="flex-grow: 2;" class="info">
+                    <b><p class="name"></p></b>
+                    <p class="type"></p>
+                    <b><p class="price"></p></b>
+                </div>
+                <div style="flex-grow: 2;" class="quantity"><span class="minus">-</span>
+                                                            <span class="number">1</span> 
+                                                            <span class="add">+</span>
+                                                        </div>
+                <p style="flex-grow: 1;" class="final-price"><b>$<span class="price totalPrice"></span></b></p>
+                <i style="flex-grow: 1;" class="ti-trash"></i>
+            </div>
+           
+            <div class="footer">
+                <div style="flex-grow: 1;" class="final-price">Total Price: <b>$195</b></div>
+                <button style="flex-grow: 3;" id="buy-btt" >Continue To Shipping</button>
+            </div>
+        </div>
+    </div>
+    <div id="shipping" class="active">
+        <div class="shipping-container">
+            <h3>Shipping</h3>
+        <div class="col col-half shipping-1">
+            <h4><b>Shipping Information</b></h4>
+            <p>Full Name<sup>*</sup></p>
+            <input type="text" placeholder=" Full Name">
+            <p>Email <sup>*</sup></p>
+            <input type="email" name="" id="" placeholder=" Email">
+            <p>Phone <sup>*</sup></p>
+            <input type="number" name="" id="" placeholder=" Phone">
+            <p>Address <sup>*</sup></p>
+            <input type="text" placeholder=" Address">
+
+        </div>
+        <div class="col col-half shipping-2">
+            <h4><b>Shipping Method</b></h4>
+            <form action="">
+              <div>
+                <input type="radio" id="op_1" name="shipping_option" value="">
+                <label for="op_1">Regular Delivery (Free, 5 Days)</label><br>
+              </div>
+              <div>
+                <input type="radio" id="op_2" name="shipping_option" value="">
+                <label for="op_2">Express Delivery ($10, 3 Days)</label><br>
+              </div>
+              <div>
+                <input type="radio" id="op_3" name="shipping_option" value="">
+                <label for="op_3">VIP Delivery ($20, 1 Days)</label>
+              </div>
+             
+            <hr>
+            <div class="col col-half">
+                <p>Shipping price:</p>
+                <p>Product price:</p>
+                <p>Discout:</p>
+                <p><b>Total Price:</b></p>
+            </div>
+            <div class="col col-half">
+                <b>
+                    <p>$10</p>
+                    <h1 class="price"></h1>
+                    <p>$0</p>
+                    <h4 class="totalPriceProduct"></h4>
+                </b>
+            </div>
+             <div class="button">
+                <div class="back-btt col col-half">
+                    Back To Card
+                </div>
+                <div class="finish-btt col col-half">
+                    Finish Order
+                </div>
+             </div>
+        </div>
+        </div>
+    </div>
+    <div class="body-wrapper active">
+        <i class="fa-solid fa-circle-check"></i>
+        <h1>ORDER SUCCESS</h1>
+        <button class="button-finish">
+            Continute Shopping
+        </button>
+    </div>
+</body>
+<script src="/GDSC.js">
+
+</script>

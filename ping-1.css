@@ -1,0 +1,12 @@
+#header .ping{
+    /* display:none; */
+    position: relative;
+    bottom:20px;
+    left:320px;
+    color:white;
+    background-color: orange;
+    font-size: 20px;
+    border-radius:50%;
+    text-align: center;
+    padding:5px 10px;
+}

@@ -1,0 +1,93 @@
+#shipping{
+    display:flex;
+    z-index:3;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    bottom:0;
+    left:0px;
+    background-color:rgba(0,0,0,0.4);
+    align-items:center;
+    justify-content: center;
+    z-index:2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+#shipping.active{
+    display:none;
+}
+#shipping .shipping-container {
+    background-color: orange;
+    background-color:#fff;
+    width:900px;
+    height: 600px;
+    min-height:200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: modalFadeIn ease 0.7s; 
+    border-radius: 20px;
+    padding:50px;
+}
+
+#shipping h3{
+padding: 10px 10px 30px 8px;
+font-size: 25px;
+}
+#shipping h4, p, input{
+    padding: 10px 0;
+}
+#shipping .shipping-1 sup{
+    color:red;
+}
+#shipping .shipping-1 p{
+    opacity:0.7;
+}
+#shipping .shipping-1 input{
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    width:350px;
+}
+::-webkit-input-placeholder{
+    opacity:1;
+    color: #000;
+    padding-left: 10px;
+}
+#shipping .shipping-2 label{
+    padding: 0px 10px;
+    color:#000
+}
+#shipping .shipping-2 form> div{
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#shipping .shipping-2 .back-btt, .finish-btt{
+    margin-top: 40px;
+
+    text-align: center;
+    width: 40%;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+#shipping .shipping-2 .finish-btt:hover{
+    cursor: pointer;
+    /* opacity:0.7; */
+    background-color: rgb(255, 51, 0);
+}
+#shipping .shipping-2 .back-btt:hover{
+    background-color:rgb(255, 102, 0);
+    color: white;
+    cursor: pointer;
+}
+#shipping .shipping-2 .back-btt{
+    border: solid 2px rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+    background-color: white;
+    line-height: 36px;
+
+}
+#shipping .shipping-2 .finish-btt{
+    background-color: rgb(255, 102, 0);
+    border-radius: 7px;
+    color: white;
+    line-height: 40px;
+}

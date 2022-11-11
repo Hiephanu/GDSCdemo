@@ -1,0 +1,99 @@
+.cart{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    bottom:0;
+    left:0px;
+    display:flex;
+    background-color:rgba(0,0,0,0.4);
+    display:none;
+    align-items:center;
+    justify-content: center;
+    z-index:2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cart-container{
+    background-color:#fff;
+    width:850px;
+    height: 320px;
+    min-height:200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: modalFadeIn ease 0.7s; 
+    border-radius: 20px;
+
+}
+.cart .cart-header{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 60px;
+}
+.cart .item{
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0px 60px;
+
+}
+.cart .item img{
+    width: 15%;
+    height: 15%;
+    padding-top:20px;
+    
+}
+.cart .item .info{
+    padding:20px;
+}
+.cart .item .quantity{
+    font-size: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.cart .item .final-price{
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+}
+.cart .item .ti-trash{
+    font-size: 40px;
+    padding: 50px;
+    cursor: pointer;
+}
+.cart .item .ti-trash:hover{
+    opacity: 0.5;
+}
+.cart .final-price{
+    font-size: 18px;
+    padding:16px;
+    margin: 0px 40px;
+
+}
+.cart .footer {
+    display: flex;
+    margin: 20px 0px;
+}
+.cart #buy-btt{
+    /* width: 30%; */
+    /* padding-left: 100px; */
+    height:48px;
+    background-color:rgb(255, 102, 0);
+    color:#fff;
+    border:none;
+    font-size:15px;
+    border-radius: 10px;
+    margin-right:60px ;
+}
+#buy-btt:hover{
+    background-color: rgba(255, 102, 0,0.7);
+    cursor: pointer;
+}
+.active{
+    display:block;
+}
+
+.minus, .add {
+    cursor: pointer;
+}

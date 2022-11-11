@@ -1,0 +1,32 @@
+
+.body-wrapper{
+    position: absolute;
+    width:456px;
+    height:474px;
+    background-color: white;
+    border-radius:20px;
+    margin-left:550px;
+}
+#success{
+    margin:60px 0px 0px 128px;
+    font-size:200px;
+    color: #F25F0C;
+}
+h1{
+    font-family: 'Poppins';
+    font-size:24px;
+    margin:20px 0px 0px 127px;
+}
+.button-finish{
+    margin:30px 135px 0px 135px;
+    width:186px;
+    height: 45px;
+    border-radius: 10px;
+    border:none;
+    background-color: #F25F0C;
+    font-size: 14px;
+    color:white;
+}
+.body-wrapper.active{
+    display:none;
+}
